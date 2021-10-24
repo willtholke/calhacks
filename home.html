@@ -1,89 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Favicons -->
-    <link rel="icon" href="images/favicon.png">
-    <link rel="shortcut icon" href="images/favicon.png">
+<html>
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link 
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
-    />
-
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <!-- CSS -->
-    <link id="theme" rel="stylesheet" href="/styles/style.css"/>
-    
-    <title>Roomie</title>
-  </head>
-  
-  <body>
-    <!-- Title -->
-    <div class="container mt-5 unselectable text-center">
-      <h1>Roomie</h1>
-      <p class="lead">Cal Hacks 2021</p>
-    </div>
-
-    <!-- Nav Pills
-    <div class="container">
-      <nav>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="https://www.willtholke.com/home"><button class="btn mx-1 btn-outline-secondary btn-lg glow-on-hover" type="button">Resume</button></a>
-          </li>
-        </ul>
-      </nav>
-    </div> -->
+<head>
+  <title>Roomie</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
 
 
-      <!-- Announcements -->
-      <div class="container mt-4">
-        <div class="container mt-4 p-5 mt-4 bg-dark rounded-3">
-          <div class="container-fluid py-2">
-            <h2 class="display-6 fw-bold" style="color:white">Introducing, my ass</h2>
-            <p class="col-md-10 fs-5" style="color:white">
-              Lorem ipsum
-            </p>
-          </div>
-        </div>
-      </div>
+</head>
 
-      <!-- Goals & Ambitions -->
-      <!-- <div class="container mt-4">
-        <div class="container mt-4 p-5 mt-4 bg-secondary rounded-3">
-          <div class="container-fluid py-2">
-            <h2 class="display-6 fw-bold" style="color:white">Goals & Ambitions</h2>
-            <p class="col-md-10 fs-5" style="color:white">
-              <b>Fall 2021</b>
-              TBD
-          </div>
-        </div>
-      </div> -->
+<body>
+  <!-- Navbar -->
+  <div class="navbar" id="navbar">
+    <h1 class="logo unselectable">Roomie</h1>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <!-- <li><a href="#">Learn More</a></li> -->
+      <li><a href="signup.html">Sign Up</a></li>
+    </ul>
+  </div>
 
-      <!-- Spacing & Footer -->
-      <!-- <div style="height: 80px;"></div> -->
-      <!-- <div class="container mt-4">
-        <footer class="pt-3 mt-3 text-muted border-top">
-          <p>&copy; William Tholke 2021 – updated 10/19/21</p>
-        </footer>
-      </div> -->
+  <!-- Background -->
+  <section class="bg" id="bg">
+    <img src="images/stars.png" id="star" alt="">
+    <img src="images/moon.png" id="moon" alt="">
+    <h2 id="text" class="unselectable">Find your roomies.</h2>
+    <a href="#scroll" id="learn">Learn more</a>
+    <img src="images/sather.png" id="sather" alt="">
+  </section>
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Description -->
+  <div class="scroll" id="scroll">
+    <h2 class="header">Roomies – find roommates at UC Berkeley</h2>
+    <p class="body">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta posuere dui sit amet ultricies. Pellentesque
+      fringilla justo vitae lobortis sollicitudin. Morbi tempus a dui ac tempor. Fusce rutrum condimentum erat, sit amet
+      lobortis leo commodo id. Curabitur non risus at enim faucibus commodo. Ut quis mi vitae nunc laoreet condimentum
+      at nec velit. Nullam mollis, nisl eu rutrum fringilla, sem dui convallis mi, vel suscipit lacus arcu ut ante.
+      Morbi non viverra arcu. Praesent consectetur porta lacinia. Duis pharetra faucibus magna vitae pellentesque. Sed
+      cursus leo non felis tincidunt suscipit. Phasellus luctus eget arcu eget pharetra. Nulla facilisi. Donec eu eros
+      arcu.
+
+      Sed tempor blandit mattis. Ut malesuada tincidunt velit, at consectetur ligula feugiat vitae. Mauris viverra purus
+      ac ipsum elementum, nec hendrerit erat congue. Sed finibus risus nec libero accumsan aliquam. Sed aliquet turpis
+      quis libero condimentum, vitae tincidunt nisl tempus. Proin ornare lacus eu lorem faucibus, non lobortis arcu
+      blandit. Etiam sed posuere elit, quis pellentesque nibh. Vivamus risus orci, sagittis nec dapibus sit amet, rutrum
+      ac libero. Nunc quis ligula vitae magna dignissim pulvinar nec eget leo. Phasellus fringilla lorem posuere nisl
+      lobortis commodo. In ullamcorper tincidunt enim, sed mollis quam aliquet vel.
+
+      Duis leo nisl, iaculis in congue in, finibus condimentum mauris. Phasellus eu egestas libero. Fusce fringilla
+      justo a erat consectetur mollis. Nunc pulvinar erat ac sapien pulvinar, sit amet laoreet nibh viverra. Cras
+      aliquam enim sit amet ante bibendum lacinia. Suspendisse potenti. Fusce sed ligula maximus, ullamcorper magna ut,
+      tempus magna. Suspendisse tincidunt sagittis semper. Duis et faucibus nulla, in elementum est. Nunc pharetra nibh
+      velit, id hendrerit est laoreet maximus.
+
+      Donec maximus ut urna sit amet facilisis. Morbi ut nibh ut orci tempus pharetra vel a tellus. Nullam metus nunc,
+      fringilla vel porta fringilla, suscipit ac nisl. Maecenas consequat congue mi. Proin tempor eget velit eget
+      venenatis. Proin a rhoncus odio, in auctor diam. Nunc nisl risus, rhoncus id efficitur sit amet, luctus ut turpis.
+      Nullam finibus nulla leo, id finibus nisi gravida id. Morbi nec neque tempor, ullamcorper enim vitae, pharetra
+      lorem. Aenean pulvinar commodo ipsum fermentum malesuada. Praesent venenatis pulvinar turpis, a auctor nulla.
+      Proin interdum nisi orci, a malesuada sapien molestie nec.
+
+      Vestibulum sed facilisis elit. Ut vel augue ipsum. Maecenas sollicitudin nulla ligula, non consequat felis
+      consectetur sit amet. Duis accumsan ut quam nec cursus. Donec ac ipsum id velit porttitor laoreet. Aliquam
+      tincidunt quis lacus id mattis. Curabitur a erat aliquet mauris posuere vestibulum a ac massa. Class aptent taciti
+      sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam aliquet odio ut luctus varius. Sed
+      laoreet pretium rhoncus. Suspendisse nec justo semper, semper nulla vitae, auctor dolor.
+    </p>
+  </div>
+
+  <!-- <script src="scripts/script.js"></script>  -->
+  <script src="scripts/script.js">
+
+  </script>
+</body>
+
 </html>
